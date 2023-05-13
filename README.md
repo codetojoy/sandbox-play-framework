@@ -10,5 +10,5 @@
 
 * go to profile -> settings -> developer settings
 * create access token (e.g. github_pat_ABC123)
-* then: `git remote set-url origin https://codetojoy:github_pat_ABC123/codetojoy/sandbox-play-framework.git `
+* then: `git remote set-url origin https://codetojoy:github_pat_ABC123@github.com/codetojoy/sandbox-play-framework.git `
 
