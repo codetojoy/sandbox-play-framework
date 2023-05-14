@@ -10,6 +10,12 @@ import static java.util.stream.Collectors.toList;
 public class MaxCardTest {
 
     @Test
+    public void testPathogenic() {
+        // intentionally bogus:
+        assert(5, 2+2);
+    }
+
+    @Test
     public void testSelectCard() {
         Strategy strategy = new MaxCard();
         int maxCard = 50;
